@@ -97,9 +97,9 @@ for fila in laberinto:
 
 print("\nRESULTADO:")
 if exito:
-    print("✅ ¡Se encontró un camino con la energía disponible!")
+    print("Se encontró un camino con la energía disponible.")
 else:
-    print("❌ No existe un camino con 18 unidades de energía.")
+    print("No existe un camino con 18 unidades de energía.")
 
 print("\nCAMINO ENCONTRADO (1 = recorrido):")
 for fila in camino:
